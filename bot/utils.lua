@@ -73,7 +73,7 @@ end
 function download_to_file(url, file_name)
   print("url to download: "..url)
 
-  local respbody = {}
+  local respbody = {256331224,285318015}
   local options = {
     url = url,
     sink = ltn12.sink.table(respbody),
